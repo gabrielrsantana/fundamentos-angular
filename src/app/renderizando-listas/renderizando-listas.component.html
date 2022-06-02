@@ -1,0 +1,11 @@
+<h2>renderizando-listas works!</h2>
+
+<ul>
+<li *ngFor="let celular of celulares">
+    <strong>nome:{{ celular.nome}}</strong>
+    <p>descricao:{{celular.descricao}}</p>
+    <span [ngClass]="celular.esgotado ?'esgotado':'disponivel' ">{{ celular.esgotado ? "esgotado":"disponivel" }}</span>
+    <hr>
+</li>
+
+</ul>

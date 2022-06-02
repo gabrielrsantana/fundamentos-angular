@@ -1,0 +1,6 @@
+<h2>interagindo entre componentes</h2>
+<h3>o sobrenome esta defino no elemento pai: {{sobrenome}}</h3>
+<h3>O nome completo é: {{filho.nome}} {{sobrenome}}</h3>
+<!-- para ter aceso a todas propriedades do component filho , usa a variavel de template #filho -->
+<app-component-filho [sobrenome]="sobrenome" (mostraNome)="mostraNome($event)" #filho></app-component-filho>
+
