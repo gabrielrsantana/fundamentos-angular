@@ -12,6 +12,9 @@ import { RenderizandoListasComponent } from './renderizando-listas/renderizando-
 import { ComponentPersonalizadoComponent } from './component-personalizado/component-personalizado.component';
 import { ComponentPaiComponent } from './component-pai/component-pai.component';
 import { ComponentFilhoComponent } from './component-filho/component-filho.component';
+import { CicloDeVidaComponent } from './ciclo-de-vida/ciclo-de-vida.component';
+import { CicloDeVidaPaiComponent } from './ciclo-de-vida-pai/ciclo-de-vida-pai.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { ComponentFilhoComponent } from './component-filho/component-filho.compo
     RenderizandoListasComponent,
     ComponentPersonalizadoComponent,
     ComponentPaiComponent,
-    ComponentFilhoComponent
+    ComponentFilhoComponent,
+    CicloDeVidaComponent,
+    CicloDeVidaPaiComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
